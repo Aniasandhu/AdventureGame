@@ -8,6 +8,8 @@ elif [ "Slocation" -- "castle"]; then
 cat castle.txt
 elif [ "Slocation" -- "cave" ]; then
 cat cave.txt
+echo "But wait..."
+cat monster.txt
 else
 echo "Invalid location."
 fi
