@@ -1,5 +1,5 @@
 subl game.sh
-echo "Welcome to the Ultimate Adventure Game!"
+echo "Welcome to the Ultimate Adventure Game with Monsters!"
 echo "Choose a location to explore: forest, castle, or cave."
 read location
 if [ "$location" == "forest" ]; then
